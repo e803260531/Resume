@@ -1,0 +1,100 @@
+*{
+	box-sizing: border-box;
+	position: relative;
+}
+
+html,body{
+	font-family: Arial,微軟正黑體, sans-serif;
+}
+
+section{
+	position: static;
+    width: 100%;
+    padding-left: 300px;
+    float: none;
+    clear: none;
+}
+
+div{
+	display: block;
+}
+
+h2{
+	font-size: 48px;
+}
+a{
+	color: #fff;
+}
+
+li{
+	list-style: none;
+}
+/*wapper*/
+.wrapper{
+	overflow: hidden;
+}
+/*navbar*/
+.navbar{
+	background-color: #0f0f0f;
+	position: fixed;
+	width: 300px;
+	left: 0px;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
+    display: block;
+    background-position: 50% 32%;
+
+}
+
+.logo{
+	display: inline-block;
+	width: 300px;
+	float: none;
+    text-align: center;
+    background-image: url(../img/NV-Loader_Edit.gif);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 88px;
+	padding-bottom: 64px;
+	white-space: nowrap;
+    overflow: hidden;
+    text-indent: 100%;
+}
+
+.menu{
+	font-size: 14px;
+	line-height: 20px;
+	margin-top: 30px;
+    float: none;
+}
+
+
+
+.menu-item{
+	margin: 15px;
+}
+/*main*/
+.container{
+	padding: 0px 16px;
+}
+.col-1-2{
+	position: relative;
+	width: 50%;
+	float: left;
+	padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+/*skill*/
+.skill{
+	padding: 40px 0px;
+}
+
+/*experience*/
+.experience{
+	padding: 40px 0px;
+}
+/*project*/
