@@ -26,6 +26,7 @@ h2{
 	font-size: 48px;
 	color: #0F0F0F;
 }
+
 a{
 	color: #E8EDDF;
 }
@@ -113,6 +114,13 @@ p{
 .skill{
 	padding: 40px 0px;
 }
+.skill-card{
+	padding: 12px;
+	margin-bottom: 24px;
+	background-color: #fefefe;
+	box-shadow: 0 3px 10px rgba(0,0,0,0.5);s
+}
+
 
 /*experience*/
 .experience{
@@ -128,7 +136,7 @@ p{
 .timeline{
     width: 4px;
     height: 100%;
-    background-color: #e881a7;
+    background-color: #e1c580;
     position: absolute;
     top: 0;
     left: 50%;
@@ -156,7 +164,7 @@ p{
     height: 16px;
     border-radius: 50%;
     box-shadow: 0 3px 10px rgba(0,0,0,0.5);
-    background-color: #e881a7;
+    background-color: #e1c580;
     position: absolute;
     top: 50%;
 }
@@ -167,6 +175,9 @@ p{
 .timeline-cards__row:nth-child(even) > :before{
     transform: translate(-50%,-50%);
     left: -24px;
+}
+.timeline-card__tittle{
+	margin: 0;
 }
 .timeline-card__text{
     margin: 0;
@@ -204,6 +215,7 @@ p{
 }
 .jumbotron__item{
 	width:100%;
+	
 }
 .jumbotron__item .image{
 	min-height: 72vh;
@@ -263,5 +275,5 @@ p{
 	background-color: rgba(256,256,256,0.5);
 }
 .owl-theme .owl-dots .active{
-	background-color: #b5f7ff;
+	background-color: #e1c580;
 }
